@@ -3,8 +3,12 @@ package presenter;
 import model.Calculator;
 import view.View;
 
+
 /**
+ * Presenter.java serves as the Presenter layer in the proyect
+ *
  * @author sebastiancanoncastellanos
+ * @see Calculator
  */
 
 public class Presenter {

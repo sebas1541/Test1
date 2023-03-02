@@ -2,11 +2,13 @@ package model;
 
 /**
  * @author sebastiancanoncastellanos
+ * @version 1.0
  */
 public class Calculator {
 
     /**
      * Attributes of calculator
+     *
      */
 
     int firstNumber;
@@ -15,9 +17,6 @@ public class Calculator {
     String firstString;
     String secondString;
 
-    /**
-     * OOP getter and setter methods
-     */
 
     public int getFirstNumber() {
         return firstNumber;
@@ -39,6 +38,11 @@ public class Calculator {
         return substractionStringNumber;
     }
 
+    /**
+     *
+     * @param substractionStringNumber que hace este parametro
+     */
+
     public void setSubstractionStringNumber(int substractionStringNumber) {
         this.substractionStringNumber = substractionStringNumber;
     }
@@ -51,6 +55,10 @@ public class Calculator {
         this.firstString = firstString;
     }
 
+    /**
+     *
+     * @return que hace el metodo
+     */
     public String getSecondString() {
         return secondString;
     }
@@ -60,7 +68,8 @@ public class Calculator {
     }
 
     /**
-     * The following methods operate the two numbers provided
+     *
+     * @return The method gets
      */
     public int add() {
         return firstNumber + secondNumber;
